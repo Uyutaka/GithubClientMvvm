@@ -3,7 +3,12 @@
 buildscript {
     ext {
         kotlin_version = '1.3.21'
+        // HTTP Client
         retrofit_version = "2.5.0"
+        converterMoshiVersion = "2.5.0"
+        // Json Parser
+        moshi_version = "1.8.0"
+
     }
     repositories {
         google()

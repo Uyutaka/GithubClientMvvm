@@ -34,6 +34,11 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
+    // Json Parser
+    implementation "com.squareup.moshi:moshi:$rootProject.ext.moshi_version"
+    implementation "com.squareup.moshi:moshi-kotlin:$rootProject.ext.moshi_version"
+
     // HTTP Client
     implementation "com.squareup.retrofit2:retrofit:$rootProject.ext.retrofit_version"
+    implementation "com.squareup.retrofit2:converter-moshi:$rootProject.ext.converterMoshiVersion"
 }
