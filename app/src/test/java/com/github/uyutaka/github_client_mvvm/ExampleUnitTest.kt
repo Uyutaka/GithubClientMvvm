@@ -1,4 +1,4 @@
-package com.github.uyutaka.GithubClientMvvm
+package com.github.uyutaka.github_client_mvvm
 
 import org.junit.Test
 

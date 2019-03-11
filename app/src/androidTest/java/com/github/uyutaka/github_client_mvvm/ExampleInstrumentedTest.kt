@@ -1,4 +1,4 @@
-package com.github.uyutaka.GithubClientMvvm
+package com.github.uyutaka.github_client_mvvm
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
-        assertEquals("com.github.uyutaka.GithubClientMvvm", appContext.packageName)
+        assertEquals("com.github.uyutaka.github_client_mvvm", appContext.packageName)
     }
 }
